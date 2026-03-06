@@ -24,6 +24,6 @@ PATCH http://localhost:8000/students/69aa15f0ca5e534f05cc9a45
 Content-Type: application/json
 
 {
-    "name": "New Name",
+    "name": "New Name 2",
     "class": "New Class"
 }
