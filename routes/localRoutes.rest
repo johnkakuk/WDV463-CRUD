@@ -1,0 +1,29 @@
+GET http://localhost:8000/students
+
+###
+
+GET http://localhost:8000/students/69aa15f0ca5e534f05cc9a45
+
+###
+
+POST http://localhost:8000/students
+Content-Type: application/json
+
+{
+    "name": "Brandon Brown",
+    "class": "DWA"
+}
+
+###
+
+DELETE http://localhost:8000/students/69aa15e4ca5e534f05cc9a43
+
+###
+
+PATCH http://localhost:8000/students/69aa15f0ca5e534f05cc9a45
+Content-Type: application/json
+
+{
+    "name": "New Name",
+    "class": "New Class"
+}
