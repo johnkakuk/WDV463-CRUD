@@ -1,12 +1,12 @@
-GET http://localhost:8000/students
+GET http://localhost:8000/api/v1/students
 
 ###
 
-GET http://localhost:8000/students/69aa15f0ca5e534f05cc9a45
+GET http://localhost:8000/api/v1/students/69aa15f0ca5e534f05cc9a45
 
 ###
 
-POST http://localhost:8000/students
+POST http://localhost:8000/api/v1/students
 Content-Type: application/json
 
 {
@@ -16,11 +16,11 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:8000/students/69aa15e4ca5e534f05cc9a43
+DELETE http://localhost:8000/api/v1/students/69aa15e4ca5e534f05cc9a43
 
 ###
 
-PATCH http://localhost:8000/students/69aa15f0ca5e534f05cc9a45
+PATCH http://localhost:8000/api/v1/students/69aa15f0ca5e534f05cc9a45
 Content-Type: application/json
 
 {
