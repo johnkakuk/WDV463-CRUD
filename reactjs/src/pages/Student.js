@@ -113,7 +113,7 @@ function Student() {
                 <Link to='/'>Home</Link>
                 <Link to='/dashboard'>Dashboard</Link>
 
-                <form onSubmit={(event) => handleSubmit()}>
+                <form onSubmit={(event) => handleSubmit(event)}>
                     <label>Name:
                         <input type="text" name="name" value={values.name} onChange={handleInputChanges} />
                     </label>
